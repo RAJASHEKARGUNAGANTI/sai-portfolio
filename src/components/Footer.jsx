@@ -3,9 +3,9 @@
 const Footer = () => {
   return (
     <>
-      <div id="footer" className="flex text-white/[0.8] border-t-[0.001px] scroll-smooth justify-around p-10 bg-gradient-to-br from-slate-950 via-slate-800 to-slate-900">
+      <div id="footer" className="flex gap-5 text-white/[0.8] border-t-[0.001px] scroll-smooth justify-around p-10 bg-gradient-to-br from-slate-950 via-slate-800 to-slate-900">
         <div>
-          <h1>Address: </h1>
+          <h1 className=" text-xl font-semibold">Address: </h1>
           <p className="text-wrap">
             Ramayalam Road Wanaparthy
             <br />
@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h1>Contact: </h1>
+          <h1 className=" text-xl font-semibold">Contact: </h1>
           <ul>
             <li className="py-2">
               <a href="#" className="relative group">
@@ -44,7 +44,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h1>Links: </h1>
+          <h1 className=" text-xl font-semibold">Links: </h1>
           <ul>
             <li className="py-2">
               <a href="#" className="relative group">
